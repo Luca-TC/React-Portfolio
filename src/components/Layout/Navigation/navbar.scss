@@ -1,0 +1,29 @@
+nav { 
+    
+    width: 100%;
+    background: linear-gradient(90deg, rgba(244, 243, 249, 1) 0%, rgba(232, 173, 34, 0.37298669467787116) 47%, rgba(207, 219, 222, 0.631) 100%);
+    
+    .navlink{
+        text-decoration: none;
+        color: rgba(194, 14, 14, 0.859);
+    }
+    
+    li {
+                list-style-type: none;
+                font-weight: bold;
+}
+    img {
+        right: 5px;
+        width: 50px;
+}
+}
+
+.collapsed {
+    display:none ;
+}
+.is-expanded {
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
